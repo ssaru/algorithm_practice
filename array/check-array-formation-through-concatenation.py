@@ -1,5 +1,6 @@
 """
 1640. Check Array Formation Through Concatenation
+https://leetcode.com/contest/weekly-contest-213/problems/check-array-formation-through-concatenation/
 User Accepted:3115
 User Tried:4606
 Total Accepted:3183
@@ -56,63 +57,65 @@ The integers in pieces are distinct (i.e., If we flatten pieces in a 1D array, a
 from typing import Union, List
 import math
 
+
 class Solution:
-    
-    def find_piece_idx(self, initial_element, pieces)->Union[int, bool]:
+    def find_piece_idx(self, initial_element, pieces) -> Union[int, bool]:
         for idx, piece in enumerate(pieces):
             if piece[0] == initial_element:
                 return idx
         return None
-    
+
     def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
         """O(?) / O(?)"""
         if len(pieces) == 1:
-            if len(arr) == 1:                
+            if len(arr) == 1:
                 return pieces[0] == arr
-            else:                                
+            else:
                 assending = sorted(pieces[0])
                 desending = sorted(pieces[0], reverse=True)
-                is_assending = (assending == arr)
-                is_desending = (desending == arr)
-                
-                if is_assending or is_desending:                    
+                is_assending = assending == arr
+                is_desending = desending == arr
+
+                if is_assending or is_desending:
                     return False
-                
+
                 is_contain_all_elements = True
                 for element in pieces[0]:
                     is_contain_all_elements = is_contain_all_elements and (element in arr)
-                if not is_contain_all_elements:                    
+                if not is_contain_all_elements:
                     return False
-                        
+
         initial_element, seek = arr[0], 0
         reconstruction = []
         while initial_element:
             piece_idx = self.find_piece_idx(initial_element=initial_element, pieces=pieces)
             if piece_idx == None:
                 return False
-            
+
             piece = pieces.pop(piece_idx)
-            reconstruction.extend(piece)            
+            reconstruction.extend(piece)
             seek += len(piece)
 
             if seek < len(arr):
                 initial_element = arr[seek]
-            else:                
+            else:
                 initial_element = False
-        
+
         return reconstruction == arr
-        
+
+
 if __name__ == "__main__":
     solution = Solution()
 
+    test_cases = [
+        ([85], [[85]], True),
+        ([15, 88], [[88], [15]], True),
+        ([49, 18, 16], [[16, 18, 49]], False),
+        ([91, 4, 64, 78], [[78], [4, 64], [91]], True),
+        ([1, 3, 5, 7], [[2, 4, 6, 8]], False),
+        ([1, 2, 3], [[2], [1, 3]], False),
+    ]
 
-    test_cases = [([85], [[85]], True),
-                 ([15, 88], [[88], [15]], True),
-                 ([49, 18, 16], [[16, 18, 49]], False),
-                 ([91, 4, 64, 78], [[78], [4, 64], [91]], True),
-                 ([1, 3, 5, 7], [[2, 4, 6, 8]], False),
-                 ([1, 2, 3], [[2], [1, 3]], False)]
-                 
     for test_case in test_cases:
         arr = test_case[0]
         pieces = test_case[1]
