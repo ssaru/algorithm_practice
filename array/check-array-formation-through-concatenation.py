@@ -8,6 +8,7 @@ Total Submissions:6150
 Difficulty:Easy
 
 Result:
+Date: 2020-11-08
 82 / 82 test cases passed.
 
 Status: Accepted
