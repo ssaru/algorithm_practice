@@ -15,8 +15,8 @@ Duration: 19m
 
 101 / 101 test cases passed.
 Status: Accepted
-Runtime: 32 ms
-Memory Usage: 14.2 MB
+Runtime: 32 ms, faster than 67.66% of Python3 online submissions for Get Maximum in Generated Array.
+Memory Usage: 14 MB, less than 97.56% of Python3 online submissions for Get Maximum in Generated Array.
 
 #2
 Date: 2020-11-13
@@ -24,8 +24,8 @@ Duration: 220m
 
 101 / 101 test cases passed.
 Status: Accepted
-Runtime: 28 ms
-Memory Usage: 14.3 MB
+Runtime: 36 ms, faster than 35.95% of Python3 online submissions for Get Maximum in Generated Array.
+Memory Usage: 14.1 MB, less than 37.92% of Python3 online submissions for Get Maximum in Generated Array.
 
 You are given an integer n. An array nums of length n + 1 is generated in the following way:
 
