@@ -1,5 +1,5 @@
 # algorithm_practice
-for coding interviews
+    
 
 **NOTE**  
 !: Got help from the solution  
