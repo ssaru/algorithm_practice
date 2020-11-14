@@ -1,4 +1,4 @@
-# algorithm_practice
+# Algorithm Practice
     
 
 **NOTE**  
