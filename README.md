@@ -1,9 +1,9 @@
 # algorithm_practice
 for coding interviews
 
-**NOTE**
-!: Got help from the solution
-?: Still don't understand the solution (should try again)
+**NOTE**  
+!: Got help from the solution  
+?: Still don't understand the solution (should try again)  
 
 | idx | name                  | category | from | answer | duration(m) | note |
 |:---:|-----------------------|----------|------|--------|-------------|------|
