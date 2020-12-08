@@ -15,4 +15,8 @@
 | 5   | Minimum Deletions to Make Character Frequencies Unique | string | [leetcode](https://leetcode.com/contest/weekly-contest-214/problems/minimum-deletions-to-make-character-frequencies-unique/) | [A](string/minimum-deletions-to-make-character-frequencies-unique.py) | 76m  |  |
 | 6   | Sell Diminishing-Valued Colored Balls | array | [leetcode](https://leetcode.com/contest/weekly-contest-214/problems/sell-diminishing-valued-colored-balls/) | [-](array/sell-diminishing-valued-colored-balls.py) | 100m  |  |
 | 7   | Create Sorted Array through Instructions | array | [leetcode](https://leetcode.com/contest/weekly-contest-214/problems/create-sorted-array-through-instructions/) |  |   |  |
-| 8   | Design an Ordered Stream | array | [leetcode](https://leetcode.com/contest/weekly-contest-215/problems/design-an-ordered-stream/) | [-]() | 51m |  |
+| 8   | Design an Ordered Stream | array | [leetcode](https://leetcode.com/contest/weekly-contest-215/problems/design-an-ordered-stream/) |  | 51m |  |
+| 9   | Richest Customer Wealth | array | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/richest-customer-wealth/) | [A](array/richest-customer-wealth.py) | 3m |  |
+| 10   | Find the Most Competitive Subsequence | stack, greedy | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/find-the-most-competitive-subsequence/) | [A](stack/find-the-most-competitive-subsequence.py) | 3m |  |
+| 11   | Minimum Moves to Make Array Complementary | greedy | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/minimum-moves-to-make-array-complementary/) |  |  |  |
+| 12   | Minimize Deviation in Array | heap | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/minimize-deviation-in-array/) |  |  |  |
