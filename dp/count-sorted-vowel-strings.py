@@ -8,7 +8,7 @@ Total Submissions:4172
 Difficulty:Medium
 
 Result:
-Date: 2011-11-10
+Date: 2020-11-10
 time consumption: over 310 minute
 
 41 / 41 test cases passed.
