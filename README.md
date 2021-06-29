@@ -20,3 +20,4 @@
 | 10   | Find the Most Competitive Subsequence | stack, greedy | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/find-the-most-competitive-subsequence/) | [A](stack/find-the-most-competitive-subsequence.py) | 3m |  |
 | 11   | Minimum Moves to Make Array Complementary | greedy | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/minimum-moves-to-make-array-complementary/) |  |  |  |
 | 12   | Minimize Deviation in Array | heap | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/minimize-deviation-in-array/) |  |  |  |
+| 13   | Redistribute Characters to Make All Strings Equal | string | [leetcode](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | [A](string/redistribute-characters-to-make-all-strings-equal.py) | 22m |  |
