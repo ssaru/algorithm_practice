@@ -21,7 +21,7 @@
 | 11   | Minimum Moves to Make Array Complementary | greedy | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/minimum-moves-to-make-array-complementary/) |  |  | ? |
 | 12   | Minimize Deviation in Array | heap | [leetcode](https://leetcode.com/contest/weekly-contest-217/problems/minimize-deviation-in-array/) |  |  | ? |
 | 13   | Redistribute Characters to Make All Strings Equal | string | [leetcode](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | [A](string/redistribute-characters-to-make-all-strings-equal.py) | 22m | + |
-| 14   | Maximum Number of Removable Characters | string | [leetcode](https://leetcode.com/problems/maximum-number-of-removable-characters/) | [A](string/maximum-number-of-removable-characters.py) | 38m | ! |
+| 14   | Maximum Number of Removable Characters | binary search | [leetcode](https://leetcode.com/problems/maximum-number-of-removable-characters/) | [A](string/maximum-number-of-removable-characters.py) | 38m | ! |
 
 +: Solved within 30 min
 
